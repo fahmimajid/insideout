@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+body::before {
+  content: "";
+  background-image: url(./online-education-landing-page/Group1.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 45vmax;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 992px) {
+  body::before {
+    opacity: 0.4;
+  }
+}
+
+.custom-nav {
+  margin-top: 30px;
+}
+
+.custom-nav .navbar-brand {
+  color: #586cbd;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+  color: #586cbd;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 2em;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: #c6cde8;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .sign-up-button {
+  display: inline-block;
+  color: white;
+  background-color: #586cbd;
+  border-radius: 2em;
+  padding: 8px 30px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-nav {
+    margin-top: 0;
+  }
+}
+
+.custom-section {
+  margin-top: 3em;
+}
+
+.custom-section h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #586cbd;
+  line-height: 1;
+}
+
+.custom-section h3 {
+  font-weight: 400;
+  font-size: 2rem;
+  color: #ee8926;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.custom-section p {
+  color: #242a5e;
+  font-size: 1.2rem;
+  margin-top: 2em;
+}
+
+.custom-section a {
+  margin-top: 1.2em;
+  display: inline-block;
+  color: white;
+  background-color: #586cbd;
+  border-radius: 2em;
+  padding: 8px 30px;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid transparent;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.custom-section a:hover {
+  color: #586cbd;
+  border: 1px solid #586cbd;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 800px) {
+  .custom-section {
+    margin-top: 2em;
+    text-align: center;
+  }
+  .custom-section h2, .custom-section h3, .custom-section p {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  .custom-section h2 {
+    font-size: 2.5rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
